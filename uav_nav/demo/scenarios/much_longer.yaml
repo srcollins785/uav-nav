@@ -1,0 +1,48 @@
+scenario_id: much_longer
+label: "Much Longer (ATL→JAX)"
+description: >
+  Long-range flight: Hartsfield-Jackson ATL → Jacksonville International
+  (FL). ~435 km SSE at 50 m/s. ~145 minutes.
+  Four landmarks spaced along the corridor.
+
+route:
+  origin_lat: 33.6413
+  origin_lon: -84.4277
+  origin_alt_m: 463.0
+  dest_lat: 30.4941
+  dest_lon: -81.6879
+  airspeed_ms: 50.0
+
+timing:
+  t_start_utc: "2026-01-28T02:00:00Z"
+
+environment:
+  mag_declination_deg: -4.9
+  mag_anomaly_deg: 3.0
+
+landmarks:
+  - name: "Griffin GA Transmission Substation"
+    type: transformer_substation
+    lat_deg: 33.1690
+    lon_deg: -84.0167
+    visible_range_km: 15.0
+
+  - name: "Eastman-Dodge County Regional Airport"
+    type: airport
+    lat_deg: 32.3824
+    lon_deg: -83.3318
+    visible_range_km: 18.0
+
+  - name: "Okefenokee Swamp Water Feature"
+    type: water_body
+    lat_deg: 31.4383
+    lon_deg: -82.5098
+    visible_range_km: 20.0
+
+  - name: "Jacksonville NAS Outlying Field"
+    type: building_cluster
+    lat_deg: 30.8088
+    lon_deg: -81.9619
+    visible_range_km: 18.0
+
+seed: 404

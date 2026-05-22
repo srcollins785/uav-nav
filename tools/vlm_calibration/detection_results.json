@@ -1,0 +1,1979 @@
+[
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 33.6549,
+    "lon": -84.3946,
+    "scenario_id": "very_short",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/very_short_01_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 30.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 30.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 0.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 90.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 33.7093,
+    "lon": -84.2684,
+    "scenario_id": "very_short",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/very_short_02_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 0.98,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 130.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 70.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 130.0,
+        "confidence": 0.98
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 260.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 33.7704,
+    "lon": -84.2104,
+    "scenario_id": "very_short",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/very_short_03_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 0.9,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 180.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 70.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 33.7662,
+    "lon": -84.2529,
+    "scenario_id": "short",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/short_04_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 150.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 33.8055,
+    "lon": -84.1681,
+    "scenario_id": "short",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/short_05_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Plantation Road Substation",
+    "lat": 33.9108,
+    "lon": -84.0314,
+    "scenario_id": "short",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/short_06_Plantation_Road_Substation.png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.85
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 0.0,
+        "confidence": 0.98
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Battle Creek Substation",
+    "lat": 33.5496,
+    "lon": -84.343,
+    "scenario_id": "baseline",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/baseline_07_Battle_Creek_Substation.png",
+    "detected": true,
+    "top_confidence": 0.98,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 270.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 30.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 270.0,
+        "confidence": 0.98
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 90.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 33.3001,
+    "lon": -84.189,
+    "scenario_id": "baseline",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/baseline_08_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 30.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 30.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 0.0,
+        "confidence": 0.9
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 33.2243,
+    "lon": -84.0608,
+    "scenario_id": "baseline",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/baseline_09_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 180.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 225.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 75.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 180.0,
+        "confidence": 0.95
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Forsyth Substation",
+    "lat": 33.0475,
+    "lon": -83.9396,
+    "scenario_id": "baseline",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/baseline_10_Forsyth_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Twin Pines Substation",
+    "lat": 32.8356,
+    "lon": -83.7458,
+    "scenario_id": "baseline",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/baseline_11_Twin_Pines_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Spivey Lake Substation",
+    "lat": 33.532,
+    "lon": -84.2741,
+    "scenario_id": "longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/longer_12_Spivey_Lake_Substation.png",
+    "detected": true,
+    "top_confidence": 0.9,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 270.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 70.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 270.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 150.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Blacksville Substation",
+    "lat": 33.4267,
+    "lon": -84.1547,
+    "scenario_id": "longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/longer_13_Blacksville_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 140.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 70.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Jackson Substation",
+    "lat": 33.2852,
+    "lon": -83.9659,
+    "scenario_id": "longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/longer_14_Jackson_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Percale Substation",
+    "lat": 33.0915,
+    "lon": -83.7874,
+    "scenario_id": "longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/longer_15_Percale_Substation.png",
+    "detected": true,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 180.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Clinton Substation",
+    "lat": 32.9988,
+    "lon": -83.5582,
+    "scenario_id": "longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/longer_16_Clinton_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Shoreline Chemical Substation",
+    "lat": 32.898,
+    "lon": -83.4039,
+    "scenario_id": "longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/longer_17_Shoreline_Chemical_Substation.png",
+    "detected": false,
+    "top_confidence": 1.0,
+    "top_landmark_type": "highway",
+    "top_bearing_deg": 33.3,
+    "all_landmarks": [
+      {
+        "type": "highway",
+        "bearing_deg": 33.3,
+        "confidence": 1.0
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 240.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "unknown",
+        "bearing_deg": 270.0,
+        "confidence": 0.6
+      },
+      {
+        "type": "unknown",
+        "bearing_deg": 350.0,
+        "confidence": 0.7
+      },
+      {
+        "type": "unknown",
+        "bearing_deg": 300.0,
+        "confidence": 0.5
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Engelhard Substation",
+    "lat": 32.8491,
+    "lon": -83.2287,
+    "scenario_id": "longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/longer_18_Engelhard_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 32.7775,
+    "lon": -83.0513,
+    "scenario_id": "longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/longer_19_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 34.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 34.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 1 (33.3360N 84.1080W)",
+    "lat": 33.336,
+    "lon": -84.108,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_20_Waypoint_1_(33.3360N_84.1080W).png",
+    "detected": false,
+    "top_confidence": 1.0,
+    "top_landmark_type": "building_cluster",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "building_cluster",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 33.2453,
+    "lon": -84.0612,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_21_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 160.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 160.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 2 (33.2030N 83.9961W)",
+    "lat": 33.203,
+    "lon": -83.9961,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_22_Waypoint_2_(33.2030N_83.9961W).png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "highway",
+    "top_bearing_deg": 70.0,
+    "all_landmarks": [
+      {
+        "type": "highway",
+        "bearing_deg": 70.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 10.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Substation (33.1607\u00b0N 83.9310\u00b0W)",
+    "lat": 33.1607,
+    "lon": -83.931,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_23_Substation_(33.1607\u00b0N_83.9310\u00b0W).png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 160.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 160.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 70.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 3 (33.0745N 83.9074W)",
+    "lat": 33.0745,
+    "lon": -83.9074,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_24_Waypoint_3_(33.0745N_83.9074W).png",
+    "detected": false,
+    "top_confidence": 0.0,
+    "top_landmark_type": "",
+    "top_bearing_deg": null,
+    "all_landmarks": [],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 32.9883,
+    "lon": -83.8837,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_25_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 0.8,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 180.0,
+    "all_landmarks": [
+      {
+        "type": "highway",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 225.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 180.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 4 (32.9087N 83.8691W)",
+    "lat": 32.9087,
+    "lon": -83.8691,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_26_Waypoint_4_(32.9087N_83.8691W).png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 220.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 220.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 70.0,
+        "confidence": 0.7
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 160.0,
+        "confidence": 0.6
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Substation (32.8291\u00b0N 83.8545\u00b0W)",
+    "lat": 32.8291,
+    "lon": -83.8545,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_27_Substation_(32.8291\u00b0N_83.8545\u00b0W).png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 5 (32.8022N 83.7542W)",
+    "lat": 32.8022,
+    "lon": -83.7542,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_28_Waypoint_5_(32.8022N_83.7542W).png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 70.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 70.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 120.0,
+        "confidence": 0.7
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 240.0,
+        "confidence": 0.6
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Armstrong Substation",
+    "lat": 32.7753,
+    "lon": -83.6538,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_29_Armstrong_Substation.png",
+    "detected": true,
+    "top_confidence": 0.9,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 180.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.85
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 90.0,
+        "confidence": 0.75
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 6 (32.7010N 83.6377W)",
+    "lat": 32.701,
+    "lon": -83.6377,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_30_Waypoint_6_(32.7010N_83.6377W).png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "building_cluster",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "building_cluster",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "water_body",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "North Warner Robins Substation",
+    "lat": 32.6267,
+    "lon": -83.6216,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_31_North_Warner_Robins_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 34.5,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 34.5,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 7 (32.5556N 83.6025W)",
+    "lat": 32.5556,
+    "lon": -83.6025,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_32_Waypoint_7_(32.5556N_83.6025W).png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "road_intersection",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "road_intersection",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 32.4846,
+    "lon": -83.5833,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_33_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 180.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 180.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 315.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 90.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 8 (32.4556N 83.4595W)",
+    "lat": 32.4556,
+    "lon": -83.4595,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_34_Waypoint_8_(32.4556N_83.4595W).png",
+    "detected": false,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 180.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 270.0,
+        "confidence": 0.6
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Substation (32.4267\u00b0N 83.3356\u00b0W)",
+    "lat": 32.4267,
+    "lon": -83.3356,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_35_Substation_(32.4267\u00b0N_83.3356\u00b0W).png",
+    "detected": true,
+    "top_confidence": 0.9,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 135.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 30.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 135.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 90.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 9 (32.3855N 83.3059W)",
+    "lat": 32.3855,
+    "lon": -83.3059,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_36_Waypoint_9_(32.3855N_83.3059W).png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "road_intersection",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "road_intersection",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Empire Substation",
+    "lat": 32.3443,
+    "lon": -83.2763,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_37_Empire_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 30.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 30.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 70.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 10 (32.2788N 83.2189W)",
+    "lat": 32.2788,
+    "lon": -83.2189,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_38_Waypoint_10_(32.2788N_83.2189W).png",
+    "detected": false,
+    "top_confidence": 1.0,
+    "top_landmark_type": "water_body",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "water_body",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 180.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Eastman Primary Substation",
+    "lat": 32.2133,
+    "lon": -83.1614,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_39_Eastman_Primary_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 225.0,
+        "confidence": 0.9
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 11 (32.1671N 83.0573W)",
+    "lat": 32.1671,
+    "lon": -83.0573,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_40_Waypoint_11_(32.1671N_83.0573W).png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 340.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 340.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "ridge_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Substation (32.1209\u00b0N 82.9531\u00b0W)",
+    "lat": 32.1209,
+    "lon": -82.9531,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_41_Substation_(32.1209\u00b0N_82.9531\u00b0W).png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 12 (32.0054N 82.9857W)",
+    "lat": 32.0054,
+    "lon": -82.9857,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_42_Waypoint_12_(32.0054N_82.9857W).png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "water_body",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "water_body",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "ridge_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Substation (31.8900\u00b0N 83.0183\u00b0W)",
+    "lat": 31.89,
+    "lon": -83.0183,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_43_Substation_(31.8900\u00b0N_83.0183\u00b0W).png",
+    "detected": true,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 270.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 270.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 180.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 13 (31.8055N 82.8843W)",
+    "lat": 31.8055,
+    "lon": -82.8843,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_44_Waypoint_13_(31.8055N_82.8843W).png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 180.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 180.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 45.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Denton Substation",
+    "lat": 31.721,
+    "lon": -82.7502,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_45_Denton_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 30.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 30.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 45.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 14 (31.6368N 82.6967W)",
+    "lat": 31.6368,
+    "lon": -82.6967,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_46_Waypoint_14_(31.6368N_82.6967W).png",
+    "detected": false,
+    "top_confidence": 0.8,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 135.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 135.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 270.0,
+        "confidence": 0.6
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 31.5526,
+    "lon": -82.6432,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_47_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 15 (31.5458N 82.5997W)",
+    "lat": 31.5458,
+    "lon": -82.5997,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_48_Waypoint_15_(31.5458N_82.5997W).png",
+    "detected": false,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 45.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 45.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 315.0,
+        "confidence": 0.6
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Milliken Substation",
+    "lat": 31.5389,
+    "lon": -82.5562,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_49_Milliken_Substation.png",
+    "detected": true,
+    "top_confidence": 0.85,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 130.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 70.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 130.0,
+        "confidence": 0.85
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 90.0,
+        "confidence": 0.98
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 16 (31.4659N 82.5907W)",
+    "lat": 31.4659,
+    "lon": -82.5907,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_50_Waypoint_16_(31.4659N_82.5907W).png",
+    "detected": false,
+    "top_confidence": 1.0,
+    "top_landmark_type": "highway",
+    "top_bearing_deg": 45.0,
+    "all_landmarks": [
+      {
+        "type": "highway",
+        "bearing_deg": 45.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 180.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Substation (31.3930\u00b0N 82.6253\u00b0W)",
+    "lat": 31.393,
+    "lon": -82.6253,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_51_Substation_(31.3930\u00b0N_82.6253\u00b0W).png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "water_body",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 17 (31.3559N 82.4936W)",
+    "lat": 31.3559,
+    "lon": -82.4936,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_52_Waypoint_17_(31.3559N_82.4936W).png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 135.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 135.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "ridge_line",
+        "bearing_deg": 90.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waltertown Substation",
+    "lat": 31.3188,
+    "lon": -82.3619,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_53_Waltertown_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 18 (31.2597N 82.3165W)",
+    "lat": 31.2597,
+    "lon": -82.3165,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_54_Waypoint_18_(31.2597N_82.3165W).png",
+    "detected": false,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 15.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 15.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 350.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Georgia Power",
+    "lat": 31.2006,
+    "lon": -82.2711,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_55_Georgia_Power.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 225.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 19 (31.1907N 82.1926W)",
+    "lat": 31.1907,
+    "lon": -82.1926,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_56_Waypoint_19_(31.1907N_82.1926W).png",
+    "detected": false,
+    "top_confidence": 1.0,
+    "top_landmark_type": "highway",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "highway",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Hoboken Substation",
+    "lat": 31.1807,
+    "lon": -82.114,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_57_Hoboken_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 20 (31.0303N 82.0732W)",
+    "lat": 31.0303,
+    "lon": -82.0732,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_58_Waypoint_20_(31.0303N_82.0732W).png",
+    "detected": false,
+    "top_confidence": 1.0,
+    "top_landmark_type": "highway",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "highway",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Folkston Primary Substation",
+    "lat": 30.8799,
+    "lon": -82.0324,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_59_Folkston_Primary_Substation.png",
+    "detected": true,
+    "top_confidence": 0.7,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 270.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 30.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 150.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 90.0,
+        "confidence": 0.6
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Waypoint 21 (30.8451N 81.9313W)",
+    "lat": 30.8451,
+    "lon": -81.9313,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_60_Waypoint_21_(30.8451N_81.9313W).png",
+    "detected": false,
+    "top_confidence": 1.0,
+    "top_landmark_type": "highway",
+    "top_bearing_deg": 85.0,
+    "all_landmarks": [
+      {
+        "type": "highway",
+        "bearing_deg": 85.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 225.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Greenville Substation",
+    "lat": 30.8103,
+    "lon": -81.8302,
+    "scenario_id": "much_longer",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/much_longer_61_Greenville_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 45.0,
+        "confidence": 0.6
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Duwamish Substation",
+    "lat": 47.5145,
+    "lon": -122.3072,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_62_Duwamish_Substation.png",
+    "detected": true,
+    "top_confidence": 0.98,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 120.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 120.0,
+        "confidence": 0.98
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 240.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 315.0,
+        "confidence": 0.95
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Tacoma Substation",
+    "lat": 47.257,
+    "lon": -122.37,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_63_Tacoma_Substation.png",
+    "detected": false,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transmission_line",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "South Tacoma Substation",
+    "lat": 47.092,
+    "lon": -122.3719,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_64_South_Tacoma_Substation.png",
+    "detected": true,
+    "top_confidence": 0.9,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 145.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 145.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 70.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Lynch Creek Substation",
+    "lat": 46.8765,
+    "lon": -122.2859,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_65_Lynch_Creek_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.9
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Substation (46.8609N 122.3362W)",
+    "lat": 46.8609,
+    "lon": -122.3362,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_66_Substation_(46.8609N_122.3362W).png",
+    "detected": true,
+    "top_confidence": 0.95,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 270.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 70.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 270.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "building_cluster",
+        "bearing_deg": 350.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Substation (46.7094N 122.5801W)",
+    "lat": 46.7094,
+    "lon": -122.5801,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_67_Substation_(46.7094N_122.5801W).png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 160.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 160.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 90.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Mossyrock Substation",
+    "lat": 46.5329,
+    "lon": -122.4312,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_68_Mossyrock_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 10.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 10.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "road_intersection",
+        "bearing_deg": 350.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Substation (46.3490N 122.6715W)",
+    "lat": 46.349,
+    "lon": -122.6715,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_69_Substation_(46.3490N_122.6715W).png",
+    "detected": true,
+    "top_confidence": 0.7,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 270.0,
+    "all_landmarks": [
+      {
+        "type": "building_cluster",
+        "bearing_deg": 35.0,
+        "confidence": 0.95
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 180.0,
+        "confidence": 0.8
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 270.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Lewis River Substation",
+    "lat": 45.9289,
+    "lon": -122.7228,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_70_Lewis_River_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 90.0,
+        "confidence": 1.0
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Cherry Grove Switching Substation",
+    "lat": 45.8008,
+    "lon": -122.5794,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_71_Cherry_Grove_Switching_Substation.png",
+    "detected": true,
+    "top_confidence": 1.0,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 35.0,
+    "all_landmarks": [
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 35.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transmission_line",
+        "bearing_deg": 270.0,
+        "confidence": 0.8
+      }
+    ],
+    "error": null
+  },
+  {
+    "landmark_name": "Ross Substation",
+    "lat": 45.6613,
+    "lon": -122.6588,
+    "scenario_id": "sea_pdx",
+    "image_path": "/Users/samuelcollins/Dropbox/Clark Atlanta University/20240716 - PhD in Cyber-Physical Systems/2026 1 - Spring/Dr Gupta's Project/tools/vlm_calibration/sea_pdx_72_Ross_Substation.png",
+    "detected": true,
+    "top_confidence": 0.9,
+    "top_landmark_type": "transformer_substation",
+    "top_bearing_deg": 90.0,
+    "all_landmarks": [
+      {
+        "type": "transmission_line",
+        "bearing_deg": 180.0,
+        "confidence": 1.0
+      },
+      {
+        "type": "transformer_substation",
+        "bearing_deg": 90.0,
+        "confidence": 0.9
+      },
+      {
+        "type": "highway",
+        "bearing_deg": 0.0,
+        "confidence": 0.7
+      }
+    ],
+    "error": null
+  }
+]

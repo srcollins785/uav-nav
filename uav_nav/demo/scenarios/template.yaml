@@ -1,0 +1,47 @@
+# ============================================================
+#  Scenario Template — copy and fill in to define a new flight
+#
+#  Usage:
+#    python -m uav_nav.demo.run_adhoc --config path/to/my_flight.yaml \
+#      --output-dir ./results
+#
+#  Landmark types (use exactly as shown):
+#    transformer_substation  airport  water_body
+#    building_cluster        road_intersection
+# ============================================================
+
+scenario_id: my_flight          # unique ID; used as output filename prefix
+label: "My Custom Flight"       # short human-readable label
+description: >
+  Describe the route here.
+
+route:
+  origin_lat: 33.641            # departure latitude (degrees North)
+  origin_lon: -84.427           # departure longitude (degrees East, negative = West)
+  origin_alt_m: 500.0           # altitude above MSL at takeoff (metres)
+  dest_lat: 32.693              # destination latitude
+  dest_lon: -83.649             # destination longitude
+  airspeed_ms: 50.0             # constant airspeed (m/s); 50 m/s ≈ 180 km/h
+
+timing:
+  t_start_utc: "2026-01-28T02:00:00Z"   # ISO 8601 UTC; must be night for stars
+
+environment:
+  mag_declination_deg: -4.9    # WMM declination for your region
+  mag_anomaly_deg: 3.0         # pre-calibrated local anomaly offset
+
+landmarks:                      # remove section entirely if no landmarks
+  - name: "Substation Near Track"
+    type: transformer_substation
+    lat_deg: 33.200
+    lon_deg: -84.100
+    visible_range_km: 15.0      # camera detection range (km)
+
+  # add more landmarks as needed:
+  # - name: "Regional Airport"
+  #   type: airport
+  #   lat_deg: 32.800
+  #   lon_deg: -83.800
+  #   visible_range_km: 18.0
+
+seed: 42                        # RNG seed for reproducibility

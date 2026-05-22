@@ -1,0 +1,266 @@
+"""
+Scenario configuration catalogue.
+
+Each ScenarioConfig fully describes a synthetic UAV flight that can be
+passed to generic_scenario.generate_scenario_from_config().
+
+All routes depart from or near Atlanta, GA and use realistic SE US
+geography, power-infrastructure landmarks, and night-flight timestamps.
+
+Landmark coordinates sourced from OpenStreetMap (Overpass API) —
+real geographic positions, not fabricated.  Regenerate with:
+    conda run -n base python tools/fetch_landmarks.py --write
+"""
+from __future__ import annotations
+
+from dataclasses import dataclass, field
+from datetime import datetime, timezone
+from typing import List, Tuple
+
+from uav_nav.vlm.schemas import LandmarkType
+
+
+@dataclass
+class LandmarkConfig:
+    """A pre-loaded geographic landmark."""
+    name: str
+    landmark_type: LandmarkType
+    lat_deg: float
+    lon_deg: float
+    visible_range_km: float = 15.0    # max camera range for VLM to detect
+    physical_height_m: float = None   # known physical height → enables monocular range estimate
+
+
+@dataclass
+class ScenarioConfig:
+    """Complete specification for one synthetic flight."""
+    # ---- identification ----
+    scenario_id: str
+    label: str                        # short human label, e.g. "Short"
+    description: str
+
+    # ---- route ----
+    origin_lat: float
+    origin_lon: float
+    origin_alt_m: float               # MSL altitude
+    dest_lat: float
+    dest_lon: float
+    airspeed_ms: float = 50.0
+
+    # ---- timing ----
+    t_start_utc: datetime = field(
+        default_factory=lambda: datetime(2026, 1, 28, 2, 0, 0, tzinfo=timezone.utc)
+    )
+
+    # ---- landmarks ----
+    landmarks: List[LandmarkConfig] = field(default_factory=list)
+
+    # ---- environment ----
+    mag_declination_deg: float = -4.9   # WMM at Atlanta area
+    mag_anomaly_deg: float = 3.0        # pre-calibrated local anomaly
+
+    # ---- RNG seed ----
+    seed: int = 42
+
+    # ---- navigation mode (used in output filenames and labels) ----
+    navigation_mode: str = "nighttime"   # "nighttime" | "daytime"
+
+    # ---- output ----
+    plot_filename: str = ""
+
+
+# ============================================================
+#  SCENARIO 1 — VERY SHORT  (~8 min, ~25 km)
+#  ATL → Stone Mountain, GA  (NNE)
+#  Real OSM substations along corridor
+# ============================================================
+SCENARIO_VERY_SHORT = ScenarioConfig(
+    scenario_id="very_short",
+    label="Very Short",
+    description=(
+        "Very short hop: Hartsfield-Jackson ATL → Stone Mountain, GA.\n"
+        "~25 km NNE at 50 m/s.  ~8 minutes.  Tests filter initialisation\n"
+        "and rapid landmark acquisition.  Landmarks: real OSM substations."
+    ),
+    origin_lat=33.6413,
+    origin_lon=-84.4277,
+    origin_alt_m=463.0,
+    dest_lat=33.8084,
+    dest_lon=-84.1700,
+    airspeed_ms=50.0,
+    t_start_utc=datetime(2026, 1, 28, 2, 0, 0, tzinfo=timezone.utc),
+    landmarks=[
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 33.6549, -84.3946, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 33.7093, -84.2684, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 33.7704, -84.2104, 15.0, 15.0),  # 230000 V
+        ],
+    plot_filename="scenario_very_short.png",
+    seed=101,
+)
+
+# ============================================================
+#  SCENARIO 2 — SHORT  (~15 min, ~45 km)
+#  ATL → Lawrenceville, GA  (NE)
+# ============================================================
+SCENARIO_SHORT = ScenarioConfig(
+    scenario_id="short",
+    label="Short",
+    description=(
+        "Short flight: Hartsfield-Jackson ATL → Lawrenceville, GA.\n"
+        "~45 km NE at 50 m/s.  ~15 minutes.  Landmarks: real OSM substations."
+    ),
+    origin_lat=33.6413,
+    origin_lon=-84.4277,
+    origin_alt_m=463.0,
+    dest_lat=33.9562,
+    dest_lon=-83.9880,
+    airspeed_ms=50.0,
+    t_start_utc=datetime(2026, 1, 28, 2, 0, 0, tzinfo=timezone.utc),
+    landmarks=[
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 33.6549, -84.3946, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 33.7662, -84.2529, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 33.8055, -84.1681, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Plantation Road Substation",
+                           LandmarkType.transformer_substation, 33.9108, -84.0314, 15.0, 15.0),  # 115000;12000 V
+        ],
+    plot_filename="scenario_short.png",
+    seed=202,
+)
+
+# ============================================================
+#  SCENARIO 3 — BASELINE (REFERENCE)  (~43 min, ~128 km)
+#  ATL → Macon, GA  (SE)
+# ============================================================
+SCENARIO_BASELINE = ScenarioConfig(
+    scenario_id="baseline",
+    label="Baseline (ATL→MCN)",
+    description=(
+        "Baseline reference: Hartsfield-Jackson ATL → Middle Georgia\n"
+        "Regional (Macon), GA.  ~128 km SE at 50 m/s.  ~43 minutes.\n"
+        "Landmarks: real OSM substations along corridor."
+    ),
+    origin_lat=33.6413,
+    origin_lon=-84.4277,
+    origin_alt_m=463.0,
+    dest_lat=32.6930,
+    dest_lon=-83.6490,
+    airspeed_ms=50.0,
+    t_start_utc=datetime(2026, 1, 28, 2, 0, 0, tzinfo=timezone.utc),
+    landmarks=[
+            LandmarkConfig("Battle Creek Substation",
+                           LandmarkType.transformer_substation, 33.5496, -84.3430, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 33.3001, -84.1890, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 33.2243, -84.0608, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Forsyth Substation",
+                           LandmarkType.transformer_substation, 33.0475, -83.9396, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Twin Pines Substation",
+                           LandmarkType.transformer_substation, 32.8356, -83.7458, 15.0, 15.0),  # 115000 V
+        ],
+    plot_filename="scenario_baseline.png",
+    seed=42,
+)
+
+# ============================================================
+#  SCENARIO 4 — LONGER  (~60 min, ~180 km)
+#  ATL → Dublin, GA  (ESE)
+# ============================================================
+SCENARIO_LONGER = ScenarioConfig(
+    scenario_id="longer",
+    label="Longer",
+    description=(
+        "Longer flight: Hartsfield-Jackson ATL → Heart of Georgia\n"
+        "Regional (Dublin), GA.  ~180 km ESE at 50 m/s.  ~60 minutes.\n"
+        "Landmarks: real OSM substations along corridor."
+    ),
+    origin_lat=33.6413,
+    origin_lon=-84.4277,
+    origin_alt_m=463.0,
+    dest_lat=32.5640,
+    dest_lon=-82.9850,
+    airspeed_ms=50.0,
+    t_start_utc=datetime(2026, 1, 28, 2, 0, 0, tzinfo=timezone.utc),
+    landmarks=[
+            LandmarkConfig("Spivey Lake Substation",
+                           LandmarkType.transformer_substation, 33.5320, -84.2741, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Blacksville Substation",
+                           LandmarkType.transformer_substation, 33.4267, -84.1547, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Jackson Substation",
+                           LandmarkType.transformer_substation, 33.2852, -83.9659, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Percale Substation",
+                           LandmarkType.transformer_substation, 33.0915, -83.7874, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Clinton Substation",
+                           LandmarkType.transformer_substation, 32.9988, -83.5582, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Shoreline Chemical Substation",
+                           LandmarkType.transformer_substation, 32.8980, -83.4039, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Engelhard Substation",
+                           LandmarkType.transformer_substation, 32.8491, -83.2287, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 32.7775, -83.0513, 15.0, 15.0),  # 115000 V
+        ],
+    plot_filename="scenario_longer.png",
+    seed=303,
+)
+
+# ============================================================
+#  SCENARIO 5 — MUCH LONGER  (~145 min, ~435 km)
+#  ATL → Jacksonville, FL  (SSE)
+# ============================================================
+SCENARIO_MUCH_LONGER = ScenarioConfig(
+    scenario_id="much_longer",
+    label="Much Longer",
+    description=(
+        "Long-range flight: Hartsfield-Jackson ATL → Jacksonville\n"
+        "International (FL).  ~435 km SSE at 50 m/s.  ~145 minutes.\n"
+        "Landmarks: real OSM substations along corridor."
+    ),
+    origin_lat=33.6413,
+    origin_lon=-84.4277,
+    origin_alt_m=463.0,
+    dest_lat=30.4941,
+    dest_lon=-81.6879,
+    airspeed_ms=50.0,
+    t_start_utc=datetime(2026, 1, 28, 2, 0, 0, tzinfo=timezone.utc),
+    landmarks=[
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 33.3607, -84.1206, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 33.2453, -84.0612, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Armstrong Substation",
+                           LandmarkType.transformer_substation, 32.7753, -83.6538, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Empire Substation",
+                           LandmarkType.transformer_substation, 32.3443, -83.2763, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Eastman Primary Substation",
+                           LandmarkType.transformer_substation, 32.2133, -83.1614, 15.0, 15.0),  # 230000;115000;46000;120000 V
+            LandmarkConfig("Denton Substation",
+                           LandmarkType.transformer_substation, 31.7210, -82.7502, 15.0, 15.0),  # 230000 V
+            LandmarkConfig("Milliken Substation",
+                           LandmarkType.transformer_substation, 31.5389, -82.5562, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 31.2006, -82.2711, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Georgia Power",
+                           LandmarkType.transformer_substation, 30.8477, -82.0043, 15.0, 15.0),  # 115000 V
+            LandmarkConfig("Greenville Substation",
+                           LandmarkType.transformer_substation, 30.8103, -81.8302, 15.0, 15.0),  # 115000 V
+        ],
+    plot_filename="scenario_much_longer.png",
+    seed=404,
+)
+
+# ============================================================
+#  Master list — used by run_all_scenarios.py
+# ============================================================
+ALL_SCENARIOS: List[ScenarioConfig] = [
+    SCENARIO_VERY_SHORT,
+    SCENARIO_SHORT,
+    SCENARIO_BASELINE,
+    SCENARIO_LONGER,
+    SCENARIO_MUCH_LONGER,
+]

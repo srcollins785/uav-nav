@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "uav-nav: Offline GPS-Denied UAV Navigation via VLM Landmarks and Celestial Fixes"
+repository-code: "https://github.com/srcollins785/uav-nav"
+license: MIT
+version: "1.0.0"
+date-released: "2026-05-22"
+authors:
+  - family-names: Collins
+    given-names: Samuel
+    email: samuel.collins@students.cau.edu
+    affiliation: Clark Atlanta University
+  - family-names: Gupta
+    given-names: Kishor Datta
+    email: kgupta@cau.edu
+    affiliation: Clark Atlanta University
+  - family-names: George
+    given-names: Roy
+    email: rgeorge@cau.edu
+    affiliation: Clark Atlanta University
+preferred-citation:
+  type: conference-paper
+  title: "GPS-Denied UAV Navigation via Vision-Language Models, Celestial Fixing, and Unscented Kalman Filtering"
+  authors:
+    - family-names: Collins
+      given-names: Samuel
+    - family-names: Gupta
+      given-names: Kishor Datta
+    - family-names: George
+      given-names: Roy
+  collection-title: "IEEE Military Communications Conference (MILCOM)"
+  year: 2026

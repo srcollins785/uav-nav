@@ -1,0 +1,32 @@
+# Default experiment configuration
+# Used by scripts/run_experiments.py and scripts/run_ablations.py.
+# All paths are relative to the project root.
+
+experiment_name: "default"
+
+# Runtime navigation config (sensor noise, UKF params, pass criterion)
+nav_config: "uav_nav/config.yaml"
+
+# Scenarios to run.  Use "all" or a list of scenario_ids:
+#   very_short | short | baseline | longer | much_longer
+scenarios: "all"
+
+# Navigation modes to run.  One or both of: daytime | nighttime
+modes:
+  - nighttime
+  - daytime
+
+# Seed sweep parameters
+seeds:
+  n: 10          # number of seeds per scenario/mode combination
+  start: 1       # first seed value (seeds = [start, start+1, ..., start+n-1])
+
+# Output directory for all results (CSV, Markdown, plots)
+output_dir: "results/latest"
+
+# Ablation conditions to run (for run_ablations.py).
+# "all" runs A0–A6; list specific names to restrict.
+ablation_conditions: "all"
+
+# If true: run 1 scenario, 1 seed, 2 ablation conditions — smoke-test mode
+quick_mode: false

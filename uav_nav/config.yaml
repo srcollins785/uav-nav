@@ -1,0 +1,73 @@
+# UAV Offline Navigation Framework — Runtime Configuration
+
+# VLM settings
+ollama_host: "http://localhost:11434"
+ollama_model: "gemma3:4b"
+vlm_rate_hz: 0.1          # Query VLM every 10 seconds
+vlm_timeout_s: 30.0       # Timeout for Ollama HTTP request
+vlm_camera_fov_deg: 70.0  # Horizontal field of view of onboard camera
+
+# Sensor rates
+imu_rate_hz: 100.0
+baro_rate_hz: 10.0
+mag_rate_hz: 10.0
+celestial_rate_hz: 0.017  # ~every 60 seconds
+
+# UKF Merwe sigma point parameters
+ukf_alpha: 0.001
+ukf_beta: 2.0
+ukf_kappa: 0.0
+
+# Celestial navigation defaults
+use_azimuth: true
+sigma_alt_deg: 0.3        # Default star altitude measurement uncertainty
+sigma_az_deg: 1.5         # Default star azimuth measurement uncertainty
+celestial_grid_lat_step: 10.0
+celestial_grid_lon_step: 20.0
+min_stars_for_fix: 1      # Minimum matched stars before calling solver
+
+# Initial GPS fix (set before launch; used to seed UKF state)
+initial_lat_deg: 33.641
+initial_lon_deg: -84.427
+initial_alt_m: 313.0
+initial_heading_deg: 0.0
+
+# Landmark triangulation thresholds
+landmark_min_confidence: 0.70
+landmark_min_baseline_m: 200.0  # Minimum UAV movement between two obs of same landmark
+vlm_assoc_max_bearing_mismatch_deg: 15.0  # Absolute gate: drop obs if best-match bearing differs by more (deg)
+vlm_assoc_min_margin_deg: 8.0             # Ambiguity gate: drop obs if top-2 candidates are within this margin (deg)
+
+# Star catalog
+star_catalog_path: "celestial/almanac_data/stars.csv"
+star_max_magnitude: 4.0   # Only use stars brighter than this magnitude
+
+# Paths to existing code (resolved relative to uav_nav/ parent)
+inverse_celnav_path: "Offline Vision\u2013Language Navigation/V1/inverse_celnav"
+
+# Sensor noise (standard deviations for process and measurement noise)
+# Each σ is a continuous-time white-noise spectral density (units: value/√s).
+# The discrete-time Q is built as σ²·dt per predict step — NOT (σ·dt)².
+process_noise:
+  pos_m: 0.5              # Position spectral density (m/√s)
+  vel_ms: 0.1             # Velocity spectral density (m/s per √s)
+  heading_deg: 0.2        # Heading spectral density (deg/√s)
+  baro_bias_m: 0.01       # Baro bias random-walk density (m/√s)
+  mag_bias_deg: 0.01      # Mag bias random-walk density (deg/√s)
+  gyro_bias_z_dps: 0.002  # Gyro-z bias random-walk density (deg/s per √s)
+
+measurement_noise:
+  baro_m: 2.0             # Barometer altitude sigma (m)
+  mag_deg: 3.0            # Magnetometer heading sigma (deg)
+  vlm_bearing_deg: 5.0    # VLM landmark bearing sigma (deg) — calibrated DJI Zenmuse + VLM
+  celestial_lat_deg: 0.02  # Celestial fix lat sigma (deg) ~ 2.2 km — 57-star catalog, good GDOP
+  celestial_lon_deg: 0.02  # Celestial fix lon sigma (deg) ~ 1.8 km
+  solar_lat_deg: 0.05     # Solar fix lat sigma (deg) ~ 5.5 km — tighter with refraction correction
+  solar_lon_deg: 0.05     # Solar fix lon sigma (deg) ~ 4.6 km
+
+# Monocular range estimation
+focal_length_px: 2000.0   # DJI Zenmuse X7 equivalent (24 mm lens, 4/3" sensor)
+vlm_range_sigma_frac: 0.05  # 5% fractional range uncertainty from pixel measurement noise
+
+# Target pass criterion
+pass_threshold_m: 50.0    # Final position error must be below this value to PASS

@@ -1,0 +1,33 @@
+# Secrets
+.env
+*.env
+integration_tests/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Generated outputs
+results/
+*.mp4
+*.png
+*.pptx
+
+# IDE / OS
+.DS_Store
+.vscode/
+*.swp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Tool cache files
+tools/osm_cache.json
+tools/vlm_calibration/
+.DS_Store
