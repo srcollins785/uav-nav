@@ -65,6 +65,27 @@ The Much Longer (435 km) scenario improved from 6/10 to 9/10 by adding 21 interp
 
 ---
 
+## Reproducing the Paper's Results
+
+Everything needed is in this repository. See **[REPRODUCE.md](REPRODUCE.md)** for the
+full guide; the short version:
+
+```bash
+python -m venv .venv && . .venv/bin/activate
+pip install -r requirements-repro.txt
+python tools/verify_reproduction.py
+```
+
+That checks your environment against the authors' per-seed data in
+[`results/paper/`](results/paper/), which backs every table in the paper.
+
+> **The celestial solver must be present.** It ships at `third_party/inverse_celnav`.
+> If it is missing, the code prints one easily-missed warning and runs with celestial
+> fixes disabled — which moves `very_short` seed 1 from **27.32 m** to 17.51 m. All
+> published numbers use the solver. `verify_reproduction.py` checks this first.
+
+---
+
 ## Environment Setup
 
 ```bash

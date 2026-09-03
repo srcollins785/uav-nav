@@ -1,0 +1,690 @@
+{
+  "summaries": [
+    {
+      "scenario": "Very Short",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 10,
+      "pass_rate": 1.0,
+      "mean_m": 20.153456069615412,
+      "median_m": 18.690020572661666,
+      "stdev_m": 8.877764728798542,
+      "min_m": 10.021529905570949,
+      "max_m": 41.44794197626845
+    },
+    {
+      "scenario": "Short",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 9,
+      "pass_rate": 0.9,
+      "mean_m": 22.272521150629313,
+      "median_m": 21.612198434625633,
+      "stdev_m": 15.370038453248346,
+      "min_m": 3.9571540225858164,
+      "max_m": 56.06355795585833
+    },
+    {
+      "scenario": "Baseline (ATL\u2192MCN)",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 10,
+      "pass_rate": 1.0,
+      "mean_m": 29.516742023981575,
+      "median_m": 28.226176509591603,
+      "stdev_m": 14.226524839959033,
+      "min_m": 10.469556932743036,
+      "max_m": 48.24732937241334
+    },
+    {
+      "scenario": "Longer",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 8,
+      "pass_rate": 0.8,
+      "mean_m": 35.427204734644924,
+      "median_m": 34.62075566823782,
+      "stdev_m": 19.178389370784178,
+      "min_m": 7.880433758639658,
+      "max_m": 71.95784235371906
+    },
+    {
+      "scenario": "Much Longer",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 8,
+      "pass_rate": 0.8,
+      "mean_m": 36.756287773675254,
+      "median_m": 34.65322074903804,
+      "stdev_m": 19.45747766900196,
+      "min_m": 7.134661913137867,
+      "max_m": 67.64278825987763
+    },
+    {
+      "scenario": "SEA\u2192PDX (Pacific NW)",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 8,
+      "pass_rate": 0.8,
+      "mean_m": 28.359110500997343,
+      "median_m": 24.024700412756804,
+      "stdev_m": 19.495889381969985,
+      "min_m": 6.619937753272078,
+      "max_m": 67.883001142973
+    }
+  ],
+  "per_scenario": {
+    "very_short": [
+      {
+        "seed": 1,
+        "final_error_m": 41.44794197626845,
+        "p95_error_m": 41.55799403848371,
+        "vlm_updates": 51,
+        "celestial_updates": 0,
+        "solar_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 16.69141659815027,
+        "p95_error_m": 24.89361738834791,
+        "vlm_updates": 50,
+        "celestial_updates": 0,
+        "solar_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 10.021529905570949,
+        "p95_error_m": 43.144880826080396,
+        "vlm_updates": 51,
+        "celestial_updates": 0,
+        "solar_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 4,
+        "final_error_m": 21.61289900139576,
+        "p95_error_m": 37.029213410517094,
+        "vlm_updates": 51,
+        "celestial_updates": 0,
+        "solar_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 5,
+        "final_error_m": 26.34202357329631,
+        "p95_error_m": 30.662086349481687,
+        "vlm_updates": 51,
+        "celestial_updates": 0,
+        "solar_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 6,
+        "final_error_m": 11.010386367415602,
+        "p95_error_m": 34.48086873735604,
+        "vlm_updates": 50,
+        "celestial_updates": 0,
+        "solar_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 19.796293555261034,
+        "p95_error_m": 40.02068987697061,
+        "vlm_updates": 51,
+        "celestial_updates": 0,
+        "solar_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 16.916353795516354,
+        "p95_error_m": 19.653009683258418,
+        "vlm_updates": 51,
+        "celestial_updates": 0,
+        "solar_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 17.5837475900623,
+        "p95_error_m": 57.71848162594508,
+        "vlm_updates": 52,
+        "celestial_updates": 0,
+        "solar_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 20.11196833321708,
+        "p95_error_m": 50.64682938094126,
+        "vlm_updates": 51,
+        "celestial_updates": 0,
+        "solar_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ],
+    "short": [
+      {
+        "seed": 1,
+        "final_error_m": 32.9034778638596,
+        "p95_error_m": 35.251505102856655,
+        "vlm_updates": 100,
+        "celestial_updates": 0,
+        "solar_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 13.755317619088206,
+        "p95_error_m": 47.53074460839083,
+        "vlm_updates": 98,
+        "celestial_updates": 0,
+        "solar_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 22.50165372286008,
+        "p95_error_m": 49.183901801731984,
+        "vlm_updates": 98,
+        "celestial_updates": 0,
+        "solar_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 4,
+        "final_error_m": 56.06355795585833,
+        "p95_error_m": 53.6289482245081,
+        "vlm_updates": 99,
+        "celestial_updates": 0,
+        "solar_updates": 3,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 5,
+        "final_error_m": 3.9571540225858164,
+        "p95_error_m": 33.270857387343156,
+        "vlm_updates": 97,
+        "celestial_updates": 0,
+        "solar_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 6,
+        "final_error_m": 21.48664858207494,
+        "p95_error_m": 36.239953422334494,
+        "vlm_updates": 99,
+        "celestial_updates": 0,
+        "solar_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 5.6086688510535705,
+        "p95_error_m": 39.74214533912339,
+        "vlm_updates": 96,
+        "celestial_updates": 0,
+        "solar_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 21.73774828717632,
+        "p95_error_m": 53.14225597219234,
+        "vlm_updates": 99,
+        "celestial_updates": 0,
+        "solar_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 12.747108484778245,
+        "p95_error_m": 39.882094771836705,
+        "vlm_updates": 98,
+        "celestial_updates": 0,
+        "solar_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 31.963876116958023,
+        "p95_error_m": 72.33089405595315,
+        "vlm_updates": 98,
+        "celestial_updates": 0,
+        "solar_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ],
+    "baseline": [
+      {
+        "seed": 1,
+        "final_error_m": 10.469556932743036,
+        "p95_error_m": 52.87058254966185,
+        "vlm_updates": 162,
+        "celestial_updates": 0,
+        "solar_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 19.778367477799073,
+        "p95_error_m": 67.75149834728875,
+        "vlm_updates": 161,
+        "celestial_updates": 0,
+        "solar_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 35.266370620208264,
+        "p95_error_m": 58.64318898494526,
+        "vlm_updates": 159,
+        "celestial_updates": 0,
+        "solar_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 4,
+        "final_error_m": 16.67223758201296,
+        "p95_error_m": 70.613029671253,
+        "vlm_updates": 162,
+        "celestial_updates": 0,
+        "solar_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 5,
+        "final_error_m": 48.24732937241334,
+        "p95_error_m": 46.81520250434408,
+        "vlm_updates": 160,
+        "celestial_updates": 0,
+        "solar_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 6,
+        "final_error_m": 15.05254907760847,
+        "p95_error_m": 67.48241500945066,
+        "vlm_updates": 161,
+        "celestial_updates": 0,
+        "solar_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 46.26302426126152,
+        "p95_error_m": 47.819657504956865,
+        "vlm_updates": 159,
+        "celestial_updates": 0,
+        "solar_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 46.96563189658586,
+        "p95_error_m": 63.568006835188875,
+        "vlm_updates": 160,
+        "celestial_updates": 0,
+        "solar_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 25.260140949800427,
+        "p95_error_m": 41.40728890843617,
+        "vlm_updates": 156,
+        "celestial_updates": 0,
+        "solar_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 31.19221206938278,
+        "p95_error_m": 55.1013011882861,
+        "vlm_updates": 157,
+        "celestial_updates": 0,
+        "solar_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ],
+    "longer": [
+      {
+        "seed": 1,
+        "final_error_m": 7.880433758639658,
+        "p95_error_m": 28.127726469310776,
+        "vlm_updates": 237,
+        "celestial_updates": 0,
+        "solar_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 53.92048505266848,
+        "p95_error_m": 45.3708598343121,
+        "vlm_updates": 233,
+        "celestial_updates": 0,
+        "solar_updates": 12,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 3,
+        "final_error_m": 71.95784235371906,
+        "p95_error_m": 65.31862090146502,
+        "vlm_updates": 231,
+        "celestial_updates": 0,
+        "solar_updates": 12,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 4,
+        "final_error_m": 41.405464779989295,
+        "p95_error_m": 36.364114423457615,
+        "vlm_updates": 235,
+        "celestial_updates": 0,
+        "solar_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 5,
+        "final_error_m": 37.18432789209017,
+        "p95_error_m": 34.140576201173225,
+        "vlm_updates": 237,
+        "celestial_updates": 0,
+        "solar_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 6,
+        "final_error_m": 13.466547402828281,
+        "p95_error_m": 30.331609482601802,
+        "vlm_updates": 236,
+        "celestial_updates": 0,
+        "solar_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 32.05718344438547,
+        "p95_error_m": 62.31658885332527,
+        "vlm_updates": 237,
+        "celestial_updates": 0,
+        "solar_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 44.80984914042986,
+        "p95_error_m": 44.08561328386567,
+        "vlm_updates": 235,
+        "celestial_updates": 0,
+        "solar_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 31.66577739044732,
+        "p95_error_m": 31.86516649222099,
+        "vlm_updates": 236,
+        "celestial_updates": 0,
+        "solar_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 19.924136131251615,
+        "p95_error_m": 37.33424395387536,
+        "vlm_updates": 238,
+        "celestial_updates": 0,
+        "solar_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ],
+    "much_longer": [
+      {
+        "seed": 1,
+        "final_error_m": 37.67332392011017,
+        "p95_error_m": 95.67820176625106,
+        "vlm_updates": 727,
+        "celestial_updates": 0,
+        "solar_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 40.88999269430313,
+        "p95_error_m": 48.003660001033296,
+        "vlm_updates": 724,
+        "celestial_updates": 0,
+        "solar_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 67.64278825987763,
+        "p95_error_m": 78.08626597297793,
+        "vlm_updates": 726,
+        "celestial_updates": 0,
+        "solar_updates": 28,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 4,
+        "final_error_m": 29.82762779109576,
+        "p95_error_m": 52.20757771308066,
+        "vlm_updates": 729,
+        "celestial_updates": 0,
+        "solar_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 5,
+        "final_error_m": 67.45892961083001,
+        "p95_error_m": 67.13065947971701,
+        "vlm_updates": 730,
+        "celestial_updates": 0,
+        "solar_updates": 28,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 6,
+        "final_error_m": 19.718167701526177,
+        "p95_error_m": 45.43030807807227,
+        "vlm_updates": 725,
+        "celestial_updates": 0,
+        "solar_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 31.63311757796591,
+        "p95_error_m": 58.419752630979204,
+        "vlm_updates": 728,
+        "celestial_updates": 0,
+        "solar_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 43.26504803234426,
+        "p95_error_m": 43.67975319931853,
+        "vlm_updates": 726,
+        "celestial_updates": 0,
+        "solar_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 22.31922023556162,
+        "p95_error_m": 50.593602956209445,
+        "vlm_updates": 719,
+        "celestial_updates": 0,
+        "solar_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 7.134661913137867,
+        "p95_error_m": 67.33624310440597,
+        "vlm_updates": 724,
+        "celestial_updates": 0,
+        "solar_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ],
+    "sea_pdx": [
+      {
+        "seed": 1,
+        "final_error_m": 31.87563718264952,
+        "p95_error_m": 31.502729879465715,
+        "vlm_updates": 251,
+        "celestial_updates": 0,
+        "solar_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 6.619937753272078,
+        "p95_error_m": 50.55837213859309,
+        "vlm_updates": 247,
+        "celestial_updates": 0,
+        "solar_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 15.410868356719398,
+        "p95_error_m": 148.47273029132552,
+        "vlm_updates": 248,
+        "celestial_updates": 0,
+        "solar_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 4,
+        "final_error_m": 12.58176087285661,
+        "p95_error_m": 34.435603589515324,
+        "vlm_updates": 252,
+        "celestial_updates": 0,
+        "solar_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 5,
+        "final_error_m": 28.448282633920403,
+        "p95_error_m": 61.04411576796636,
+        "vlm_updates": 249,
+        "celestial_updates": 0,
+        "solar_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 6,
+        "final_error_m": 67.883001142973,
+        "p95_error_m": 90.28812110147126,
+        "vlm_updates": 255,
+        "celestial_updates": 0,
+        "solar_updates": 13,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 7,
+        "final_error_m": 51.86449774555057,
+        "p95_error_m": 53.33124984888589,
+        "vlm_updates": 252,
+        "celestial_updates": 0,
+        "solar_updates": 13,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 8,
+        "final_error_m": 12.396452235772003,
+        "p95_error_m": 57.85489135860771,
+        "vlm_updates": 250,
+        "celestial_updates": 0,
+        "solar_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 19.601118191593205,
+        "p95_error_m": 83.87685636717511,
+        "vlm_updates": 254,
+        "celestial_updates": 0,
+        "solar_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 36.90954889466664,
+        "p95_error_m": 42.687734673443885,
+        "vlm_updates": 250,
+        "celestial_updates": 0,
+        "solar_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ]
+  }
+}

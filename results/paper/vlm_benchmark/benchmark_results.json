@@ -1,0 +1,386 @@
+{
+  "gemma3:4b": [
+    {
+      "label": "Georgia Power (Lithonia)",
+      "ground_truth": true,
+      "raw": "```json\n{\n  \"scene_type\": \"urban\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"highway\",\n      \"bearing_deg\": 0.0,\n      \"distance_category\": \"far\",\n      \"confidence\": 0.95,\n      \"notes\": \"Major highway with high traffic density.\"\n    },\n    {\n      \"type\": \"road_intersection\",\n ",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 4.79
+    },
+    {
+      "label": "Georgia Power (Snellville)",
+      "ground_truth": true,
+      "raw": "```json\n{\n  \"scene_type\": \"urban\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"building_cluster\",\n      \"bearing_deg\": 30.0,\n      \"distance_category\": \"far\",\n      \"confidence\": 0.95,\n      \"notes\": \"Large white building, likely a retail store.\"\n    },\n    {\n      \"type\": \"road_in",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 3.14
+    },
+    {
+      "label": "Georgia Power (Stone Mtn)",
+      "ground_truth": true,
+      "raw": "```json\n{\n  \"scene_type\": \"rural\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"building_cluster\",\n      \"bearing_deg\": 30.0,\n      \"distance_category\": \"mid\",\n      \"confidence\": 0.95,\n      \"notes\": \"Group of residential buildings\"\n    },\n    {\n      \"type\": \"road_intersection\",\n ",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 3.09
+    },
+    {
+      "label": "Plantation Rd Substation",
+      "ground_truth": true,
+      "raw": "```json\n{\n  \"scene_type\": \"rural\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"building_cluster\",\n      \"bearing_deg\": 35,\n      \"distance_category\": \"mid\",\n      \"confidence\": 0.8,\n      \"notes\": \"Dense cluster of buildings, likely residential.\"\n    },\n    {\n      \"type\": \"road_in",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 2.59
+    },
+    {
+      "label": "Battle Creek Substation",
+      "ground_truth": true,
+      "raw": "```json\n{\n  \"scene_type\": \"urban\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"road_intersection\",\n      \"bearing_deg\": 70.0,\n      \"distance_category\": \"mid\",\n      \"confidence\": 0.95,\n      \"notes\": \"Main road intersection with multiple access points.\"\n    },\n    {\n      \"type\": ",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 3.18
+    },
+    {
+      "label": "Forsyth Substation",
+      "ground_truth": true,
+      "raw": "```json\n{\n  \"scene_type\": \"urban\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"building_cluster\",\n      \"bearing_deg\": 35.0,\n      \"distance_category\": \"near\",\n      \"confidence\": 0.95,\n      \"notes\": \"Large cluster of buildings, likely a residential area.\"\n    },\n    {\n      \"type",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 3.18
+    },
+    {
+      "label": "Twin Pines Substation",
+      "ground_truth": true,
+      "raw": "```json\n{\n  \"scene_type\": \"urban\",\n  \"sky_visible\": true,\n  \"landmarks\": [\n    {\n      \"type\": \"road_intersection\",\n      \"bearing_deg\": 45.0,\n      \"distance_category\": \"near\",\n      \"confidence\": 0.95,\n      \"notes\": \"Major intersection with multiple roadways.\"\n    },\n    {\n      \"type\": \"building",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 3.12
+    },
+    {
+      "label": "very_short_01_Georgia_Power",
+      "ground_truth": true,
+      "raw": "```json\n{\n  \"scene_type\": \"urban\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"highway\",\n      \"bearing_deg\": 45.0,\n      \"distance_category\": \"near\",\n      \"confidence\": 1.0,\n      \"notes\": \"Major highway running horizontally\"\n    },\n    {\n      \"type\": \"building_cluster\",\n      \"",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 3.13
+    },
+    {
+      "label": "Midpoint (Georgia Powe\u2026Georgia Powe)",
+      "ground_truth": false,
+      "raw": "```json\n{\n  \"scene_type\": \"rural\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"water_body\",\n      \"bearing_deg\": 350.0,\n      \"distance_category\": \"near\",\n      \"confidence\": 0.95,\n      \"notes\": \"Large body of water with rocky shoreline.\"\n    },\n    {\n      \"type\": \"ridge_line\",\n ",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 2.65
+    },
+    {
+      "label": "Midpoint (Georgia Powe\u2026Georgia Powe)",
+      "ground_truth": false,
+      "raw": "```json\n{\n  \"scene_type\": \"rural\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"water_body\",\n      \"bearing_deg\": 350.0,\n      \"distance_category\": \"near\",\n      \"confidence\": 0.95,\n      \"notes\": \"Large body of water with rocky shoreline.\"\n    },\n    {\n      \"type\": \"ridge_line\",\n ",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 1.82
+    },
+    {
+      "label": "Midpoint (Georgia Powe\u2026Plantation R)",
+      "ground_truth": false,
+      "raw": "```json\n{\n  \"scene_type\": \"urban\",\n  \"sky_visible\": true,\n  \"landmarks\": [\n    {\n      \"type\": \"road_intersection\",\n      \"bearing_deg\": 32.5,\n      \"distance_category\": \"mid\",\n      \"confidence\": 0.95,\n      \"notes\": \"Main intersection with multiple driveways.\"\n    },\n    {\n      \"type\": \"road_inte",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 3.18
+    },
+    {
+      "label": "Midpoint (Plantation R\u2026Battle Creek)",
+      "ground_truth": false,
+      "raw": "```json\n{\n  \"scene_type\": \"urban\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"building_cluster\",\n      \"bearing_deg\": 30.0,\n      \"distance_category\": \"near\",\n      \"confidence\": 0.95,\n      \"notes\": \"Dense residential area with multiple buildings.\"\n    },\n    {\n      \"type\": \"roa",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 3.16
+    },
+    {
+      "label": "Midpoint (Battle Creek\u2026Forsyth Subs)",
+      "ground_truth": false,
+      "raw": "```json\n{\n  \"scene_type\": \"rural\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"ridge_line\",\n      \"bearing_deg\": 35.0,\n      \"distance_category\": \"mid\",\n      \"confidence\": 0.95,\n      \"notes\": \"Prominent ridge line running across the image.\"\n    },\n    {\n      \"type\": \"transmissio",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 2.65
+    },
+    {
+      "label": "Midpoint (Forsyth Subs\u2026Twin Pines S)",
+      "ground_truth": false,
+      "raw": "```json\n{\n  \"scene_type\": \"rural\",\n  \"sky_visible\": false,\n  \"landmarks\": [\n    {\n      \"type\": \"building\",\n      \"bearing_deg\": 30.0,\n      \"distance_category\": \"near\",\n      \"confidence\": 0.95,\n      \"notes\": \"Small, white building with a dark roof.\"\n    },\n    {\n      \"type\": \"building\",\n      \"b",
+      "json_valid": true,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 2.61
+    }
+  ],
+  "moondream:latest": [
+    {
+      "label": "Georgia Power (Lithonia)",
+      "ground_truth": true,
+      "raw": "\nThe image shows an aerial view of a highway with multiple lanes filled with cars traveling in both directions. The highway is surrounded by trees and buildings, indicating that it's located near a city or town center. There are at least 13 cars visible in the image, some closer to the camera while ",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 9.86
+    },
+    {
+      "label": "Georgia Power (Snellville)",
+      "ground_truth": true,
+      "raw": "\n [0.17, 0.39, 0.83, 0.66]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.33
+    },
+    {
+      "label": "Georgia Power (Stone Mtn)",
+      "ground_truth": true,
+      "raw": "\n [0.17, 0.39, 0.42, 0.6]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.33
+    },
+    {
+      "label": "Plantation Rd Substation",
+      "ground_truth": true,
+      "raw": "\n [0.17, 0.39, 0.42, 0.56]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.34
+    },
+    {
+      "label": "Battle Creek Substation",
+      "ground_truth": true,
+      "raw": "\n [0.17, 0.39, 0.83, 0.61]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.33
+    },
+    {
+      "label": "Forsyth Substation",
+      "ground_truth": true,
+      "raw": "\n [0.17, 0.39, 0.83, 1.0]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.33
+    },
+    {
+      "label": "Twin Pines Substation",
+      "ground_truth": true,
+      "raw": "\n [0.17, 0.13, 0.38, 0.3]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.33
+    },
+    {
+      "label": "very_short_01_Georgia_Power",
+      "ground_truth": true,
+      "raw": "\n [0.12, 0.39, 0.38, 0.55]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.37
+    },
+    {
+      "label": "Midpoint (Georgia Powe\u2026Georgia Powe)",
+      "ground_truth": false,
+      "raw": "\n [0.17, 0.39, 0.83, 0.56]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.33
+    },
+    {
+      "label": "Midpoint (Georgia Powe\u2026Georgia Powe)",
+      "ground_truth": false,
+      "raw": "\n [0.24, 0.65, 0.38, 0.74]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.08
+    },
+    {
+      "label": "Midpoint (Georgia Powe\u2026Plantation R)",
+      "ground_truth": false,
+      "raw": "\n [0.17, 0.39, 0.83, 1]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.33
+    },
+    {
+      "label": "Midpoint (Plantation R\u2026Battle Creek)",
+      "ground_truth": false,
+      "raw": "\n [0.17, 0.39, 0.42, 0.56]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.33
+    },
+    {
+      "label": "Midpoint (Battle Creek\u2026Forsyth Subs)",
+      "ground_truth": false,
+      "raw": "\n [0.17, 0.39, 0.32, 0.5]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.33
+    },
+    {
+      "label": "Midpoint (Forsyth Subs\u2026Twin Pines S)",
+      "ground_truth": false,
+      "raw": "\n [0.24, 0.39, 0.44, 0.5]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.34
+    }
+  ],
+  "bakllava:latest": [
+    {
+      "label": "Georgia Power (Lithonia)",
+      "ground_truth": true,
+      "raw": "1.0",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 11.7
+    },
+    {
+      "label": "Georgia Power (Snellville)",
+      "ground_truth": true,
+      "raw": "1.0",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.8
+    },
+    {
+      "label": "Georgia Power (Stone Mtn)",
+      "ground_truth": true,
+      "raw": "100% of the image is covered by trees, making it difficult to identify landmarks or stars in the sky.",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 1.04
+    },
+    {
+      "label": "Plantation Rd Substation",
+      "ground_truth": true,
+      "raw": "0",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.79
+    },
+    {
+      "label": "Battle Creek Substation",
+      "ground_truth": true,
+      "raw": "1.0, 0.82, 0.95, 0.97]",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 1.01
+    },
+    {
+      "label": "Forsyth Substation",
+      "ground_truth": true,
+      "raw": "100% of the image is covered in green trees. There are no visible buildings or stars in the image.",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 1.03
+    },
+    {
+      "label": "Twin Pines Substation",
+      "ground_truth": true,
+      "raw": "1.0",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.8
+    },
+    {
+      "label": "very_short_01_Georgia_Power",
+      "ground_truth": true,
+      "raw": "1.0",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.82
+    },
+    {
+      "label": "Midpoint (Georgia Powe\u2026Georgia Powe)",
+      "ground_truth": false,
+      "raw": "0",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.78
+    },
+    {
+      "label": "Midpoint (Georgia Powe\u2026Georgia Powe)",
+      "ground_truth": false,
+      "raw": "0",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.03
+    },
+    {
+      "label": "Midpoint (Georgia Powe\u2026Plantation R)",
+      "ground_truth": false,
+      "raw": "0",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.78
+    },
+    {
+      "label": "Midpoint (Plantation R\u2026Battle Creek)",
+      "ground_truth": false,
+      "raw": "100%",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.81
+    },
+    {
+      "label": "Midpoint (Battle Creek\u2026Forsyth Subs)",
+      "ground_truth": false,
+      "raw": "0",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.78
+    },
+    {
+      "label": "Midpoint (Forsyth Subs\u2026Twin Pines S)",
+      "ground_truth": false,
+      "raw": "0",
+      "json_valid": false,
+      "detected": false,
+      "confidence": 0.0,
+      "latency_s": 0.79
+    }
+  ]
+}

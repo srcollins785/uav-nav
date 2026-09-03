@@ -1,0 +1,630 @@
+{
+  "summaries": [
+    {
+      "scenario": "Very Short",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 9,
+      "pass_rate": 0.9,
+      "mean_m": 30.828993084659807,
+      "median_m": 30.74424637153349,
+      "stdev_m": 17.539551352857227,
+      "min_m": 2.6932660066966614,
+      "max_m": 66.04479627867774
+    },
+    {
+      "scenario": "Short",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 9,
+      "pass_rate": 0.9,
+      "mean_m": 25.938541617832673,
+      "median_m": 26.325925910575382,
+      "stdev_m": 16.372311118764912,
+      "min_m": 7.121753009432791,
+      "max_m": 65.67084086450764
+    },
+    {
+      "scenario": "Baseline (ATL\u2192MCN)",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 9,
+      "pass_rate": 0.9,
+      "mean_m": 32.02249388597961,
+      "median_m": 28.400744659758264,
+      "stdev_m": 20.360222445507418,
+      "min_m": 9.284219081732743,
+      "max_m": 84.85800932440009
+    },
+    {
+      "scenario": "Longer",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 8,
+      "pass_rate": 0.8,
+      "mean_m": 35.09114042344417,
+      "median_m": 27.384378689923306,
+      "stdev_m": 19.44150357496494,
+      "min_m": 10.166666015774318,
+      "max_m": 70.19935281957355
+    },
+    {
+      "scenario": "Much Longer",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 9,
+      "pass_rate": 0.9,
+      "mean_m": 30.8248616778879,
+      "median_m": 32.36816295718456,
+      "stdev_m": 19.107878157379723,
+      "min_m": 4.889691884480539,
+      "max_m": 70.45724468157583
+    },
+    {
+      "scenario": "SEA\u2192PDX (Pacific NW)",
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 8,
+      "pass_rate": 0.8,
+      "mean_m": 34.85916538132,
+      "median_m": 34.1510511183054,
+      "stdev_m": 18.902240016597933,
+      "min_m": 6.461577110865976,
+      "max_m": 72.81941856975645
+    }
+  ],
+  "per_scenario": {
+    "very_short": [
+      {
+        "seed": 1,
+        "final_error_m": 27.32454307495759,
+        "p95_error_m": 34.55134342988912,
+        "vlm_updates": 51,
+        "celestial_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 17.280837556145386,
+        "p95_error_m": 25.88666873164631,
+        "vlm_updates": 50,
+        "celestial_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 66.04479627867774,
+        "p95_error_m": 73.76936094388994,
+        "vlm_updates": 52,
+        "celestial_updates": 2,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 4,
+        "final_error_m": 36.15016540770979,
+        "p95_error_m": 59.024568569039424,
+        "vlm_updates": 52,
+        "celestial_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 5,
+        "final_error_m": 30.129207981055153,
+        "p95_error_m": 35.03039513919182,
+        "vlm_updates": 51,
+        "celestial_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 6,
+        "final_error_m": 47.82169875811954,
+        "p95_error_m": 48.93877290116627,
+        "vlm_updates": 51,
+        "celestial_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 2.6932660066966614,
+        "p95_error_m": 29.135385329589965,
+        "vlm_updates": 52,
+        "celestial_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 31.359284762011825,
+        "p95_error_m": 31.535070346186835,
+        "vlm_updates": 50,
+        "celestial_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 33.380260533044726,
+        "p95_error_m": 57.56940280865745,
+        "vlm_updates": 52,
+        "celestial_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 16.105870488179644,
+        "p95_error_m": 66.44070897676575,
+        "vlm_updates": 52,
+        "celestial_updates": 2,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ],
+    "short": [
+      {
+        "seed": 1,
+        "final_error_m": 26.600148063205282,
+        "p95_error_m": 42.86728805899475,
+        "vlm_updates": 98,
+        "celestial_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 7.121753009432791,
+        "p95_error_m": 47.94184320033299,
+        "vlm_updates": 97,
+        "celestial_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 26.051703757945482,
+        "p95_error_m": 92.95800140191362,
+        "vlm_updates": 99,
+        "celestial_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 4,
+        "final_error_m": 65.67084086450764,
+        "p95_error_m": 63.412953990695556,
+        "vlm_updates": 97,
+        "celestial_updates": 3,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 5,
+        "final_error_m": 28.99259399137644,
+        "p95_error_m": 29.315753111222616,
+        "vlm_updates": 97,
+        "celestial_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 6,
+        "final_error_m": 23.897987852449944,
+        "p95_error_m": 36.239953422334494,
+        "vlm_updates": 98,
+        "celestial_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 28.099273114858324,
+        "p95_error_m": 39.74214533912339,
+        "vlm_updates": 98,
+        "celestial_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 8.825078048751598,
+        "p95_error_m": 63.226013473072896,
+        "vlm_updates": 99,
+        "celestial_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 13.7496069858086,
+        "p95_error_m": 30.77770785495251,
+        "vlm_updates": 98,
+        "celestial_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 30.376430489990632,
+        "p95_error_m": 75.04502734564673,
+        "vlm_updates": 99,
+        "celestial_updates": 3,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ],
+    "baseline": [
+      {
+        "seed": 1,
+        "final_error_m": 14.772654061895105,
+        "p95_error_m": 37.626188586334315,
+        "vlm_updates": 158,
+        "celestial_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 33.15530119288587,
+        "p95_error_m": 41.092210428049036,
+        "vlm_updates": 157,
+        "celestial_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 84.85800932440009,
+        "p95_error_m": 74.81947842114005,
+        "vlm_updates": 159,
+        "celestial_updates": 8,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 4,
+        "final_error_m": 9.284219081732743,
+        "p95_error_m": 66.86133976214848,
+        "vlm_updates": 158,
+        "celestial_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 5,
+        "final_error_m": 29.890737670990944,
+        "p95_error_m": 44.24835989982489,
+        "vlm_updates": 157,
+        "celestial_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 6,
+        "final_error_m": 25.639847940822573,
+        "p95_error_m": 44.14196558606037,
+        "vlm_updates": 161,
+        "celestial_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 26.910751648525583,
+        "p95_error_m": 48.81572421279527,
+        "vlm_updates": 162,
+        "celestial_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 32.15058569127103,
+        "p95_error_m": 37.13978196286081,
+        "vlm_updates": 161,
+        "celestial_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 26.690161062376205,
+        "p95_error_m": 33.32187699381733,
+        "vlm_updates": 156,
+        "celestial_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 36.872671184895935,
+        "p95_error_m": 41.6432449430919,
+        "vlm_updates": 160,
+        "celestial_updates": 8,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ],
+    "longer": [
+      {
+        "seed": 1,
+        "final_error_m": 39.955140109239785,
+        "p95_error_m": 31.12597527158058,
+        "vlm_updates": 236,
+        "celestial_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 44.276419758160124,
+        "p95_error_m": 33.54639859076674,
+        "vlm_updates": 239,
+        "celestial_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 10.166666015774318,
+        "p95_error_m": 105.60396324614713,
+        "vlm_updates": 232,
+        "celestial_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 4,
+        "final_error_m": 70.19935281957355,
+        "p95_error_m": 61.418184298114156,
+        "vlm_updates": 231,
+        "celestial_updates": 12,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 5,
+        "final_error_m": 63.776980452943064,
+        "p95_error_m": 77.42640398457118,
+        "vlm_updates": 232,
+        "celestial_updates": 12,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 6,
+        "final_error_m": 23.89614649556615,
+        "p95_error_m": 49.2286609936218,
+        "vlm_updates": 233,
+        "celestial_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 24.005350759652227,
+        "p95_error_m": 41.124680668511814,
+        "vlm_updates": 232,
+        "celestial_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 30.403433601160177,
+        "p95_error_m": 31.17988854350699,
+        "vlm_updates": 233,
+        "celestial_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 24.365323778686435,
+        "p95_error_m": 37.79988684078871,
+        "vlm_updates": 232,
+        "celestial_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 19.86659044368593,
+        "p95_error_m": 39.665904465078896,
+        "vlm_updates": 229,
+        "celestial_updates": 12,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ],
+    "much_longer": [
+      {
+        "seed": 1,
+        "final_error_m": 15.704773607322466,
+        "p95_error_m": 49.73820154964597,
+        "vlm_updates": 724,
+        "celestial_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 32.29168287030001,
+        "p95_error_m": 75.50103569968243,
+        "vlm_updates": 721,
+        "celestial_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 70.45724468157583,
+        "p95_error_m": 101.12619272530372,
+        "vlm_updates": 729,
+        "celestial_updates": 28,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 4,
+        "final_error_m": 32.44464304406911,
+        "p95_error_m": 76.25826933956431,
+        "vlm_updates": 727,
+        "celestial_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 5,
+        "final_error_m": 41.66595541266575,
+        "p95_error_m": 48.36179079927409,
+        "vlm_updates": 728,
+        "celestial_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 6,
+        "final_error_m": 33.46728940037727,
+        "p95_error_m": 63.172857891947,
+        "vlm_updates": 723,
+        "celestial_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 30.988277130236476,
+        "p95_error_m": 58.53363326266937,
+        "vlm_updates": 722,
+        "celestial_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 40.01442871129329,
+        "p95_error_m": 55.40824695074877,
+        "vlm_updates": 723,
+        "celestial_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 9,
+        "final_error_m": 4.889691884480539,
+        "p95_error_m": 77.70372291298308,
+        "vlm_updates": 724,
+        "celestial_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 6.324630036558252,
+        "p95_error_m": 72.74045538368507,
+        "vlm_updates": 721,
+        "celestial_updates": 28,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ],
+    "sea_pdx": [
+      {
+        "seed": 1,
+        "final_error_m": 35.35473833356847,
+        "p95_error_m": 53.423585695954685,
+        "vlm_updates": 248,
+        "celestial_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 2,
+        "final_error_m": 6.461577110865976,
+        "p95_error_m": 116.0664908567386,
+        "vlm_updates": 250,
+        "celestial_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 3,
+        "final_error_m": 46.62853492493129,
+        "p95_error_m": 89.77739475071003,
+        "vlm_updates": 250,
+        "celestial_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 4,
+        "final_error_m": 19.413038809403016,
+        "p95_error_m": 37.272984083219455,
+        "vlm_updates": 249,
+        "celestial_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 5,
+        "final_error_m": 72.81941856975645,
+        "p95_error_m": 73.496496638131,
+        "vlm_updates": 250,
+        "celestial_updates": 13,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 6,
+        "final_error_m": 20.031177253625764,
+        "p95_error_m": 53.38084075741983,
+        "vlm_updates": 250,
+        "celestial_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 7,
+        "final_error_m": 34.73248418393173,
+        "p95_error_m": 83.45773898349964,
+        "vlm_updates": 247,
+        "celestial_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 8,
+        "final_error_m": 52.4538027666271,
+        "p95_error_m": 55.74609479074151,
+        "vlm_updates": 247,
+        "celestial_updates": 13,
+        "nees_alarms": 0,
+        "passed": false
+      },
+      {
+        "seed": 9,
+        "final_error_m": 27.127263807811108,
+        "p95_error_m": 55.026786064389306,
+        "vlm_updates": 249,
+        "celestial_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      },
+      {
+        "seed": 10,
+        "final_error_m": 33.56961805267908,
+        "p95_error_m": 93.34958077049457,
+        "vlm_updates": 251,
+        "celestial_updates": 13,
+        "nees_alarms": 0,
+        "passed": true
+      }
+    ]
+  }
+}

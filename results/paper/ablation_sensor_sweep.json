@@ -1,0 +1,399 @@
+{
+  "scenario": "Baseline (ATL\u2192MCN)",
+  "n_seeds": 10,
+  "threshold_m": 50.0,
+  "configs": [
+    {
+      "label": "Dead reckoning (IMU+baro+mag)",
+      "key": "dead_reckoning",
+      "use_vlm": false,
+      "use_solar": false,
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 4,
+      "pass_rate": 0.4,
+      "mean_m": 61.52150051652765,
+      "median_m": 73.78956540397074,
+      "stdev_m": 50.954484218204875,
+      "min_m": 6.931752748920905,
+      "max_m": 147.80518379849784,
+      "nees_alarm_seeds": 0,
+      "per_seed": [
+        {
+          "seed": 1,
+          "final_error_m": 68.41879443176173,
+          "vlm_updates": 0,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 2,
+          "final_error_m": 123.01448672710929,
+          "vlm_updates": 0,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 3,
+          "final_error_m": 147.80518379849784,
+          "vlm_updates": 0,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 4,
+          "final_error_m": 10.375196670053898,
+          "vlm_updates": 0,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 5,
+          "final_error_m": 79.6285908764763,
+          "vlm_updates": 0,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 6,
+          "final_error_m": 8.889180298636202,
+          "vlm_updates": 0,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 7,
+          "final_error_m": 79.16033637617976,
+          "vlm_updates": 0,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 8,
+          "final_error_m": 81.37477381069363,
+          "vlm_updates": 0,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 9,
+          "final_error_m": 9.616709426946997,
+          "vlm_updates": 0,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 10,
+          "final_error_m": 6.931752748920905,
+          "vlm_updates": 0,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "label": "+ Solar only",
+      "key": "solar_only",
+      "use_vlm": false,
+      "use_solar": true,
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 4,
+      "pass_rate": 0.4,
+      "mean_m": 61.8045835393427,
+      "median_m": 72.44924614245576,
+      "stdev_m": 50.50098890616803,
+      "min_m": 9.6250936779303,
+      "max_m": 148.29057608760843,
+      "nees_alarm_seeds": 0,
+      "per_seed": [
+        {
+          "seed": 1,
+          "final_error_m": 67.31295922297181,
+          "vlm_updates": 0,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 2,
+          "final_error_m": 122.91611821815302,
+          "vlm_updates": 0,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 3,
+          "final_error_m": 148.29057608760843,
+          "vlm_updates": 0,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 4,
+          "final_error_m": 9.872399556156426,
+          "vlm_updates": 0,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 5,
+          "final_error_m": 77.58553306193971,
+          "vlm_updates": 0,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 6,
+          "final_error_m": 10.535675078365617,
+          "vlm_updates": 0,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 7,
+          "final_error_m": 81.113169172978,
+          "vlm_updates": 0,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 8,
+          "final_error_m": 80.75207785778136,
+          "vlm_updates": 0,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": false
+        },
+        {
+          "seed": 9,
+          "final_error_m": 9.6250936779303,
+          "vlm_updates": 0,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 10,
+          "final_error_m": 10.042233459542354,
+          "vlm_updates": 0,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "label": "+ VLM only",
+      "key": "vlm_only",
+      "use_vlm": true,
+      "use_solar": false,
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 10,
+      "pass_rate": 1.0,
+      "mean_m": 29.67131306242972,
+      "median_m": 28.040398545311202,
+      "stdev_m": 14.345846073663939,
+      "min_m": 10.241932250648667,
+      "max_m": 48.08859321163149,
+      "nees_alarm_seeds": 0,
+      "per_seed": [
+        {
+          "seed": 1,
+          "final_error_m": 10.241932250648667,
+          "vlm_updates": 162,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 2,
+          "final_error_m": 21.67258104207008,
+          "vlm_updates": 161,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 3,
+          "final_error_m": 36.860441729655804,
+          "vlm_updates": 158,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 4,
+          "final_error_m": 16.554250032248092,
+          "vlm_updates": 162,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 5,
+          "final_error_m": 48.08859321163149,
+          "vlm_updates": 160,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 6,
+          "final_error_m": 14.042896169313694,
+          "vlm_updates": 161,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 7,
+          "final_error_m": 46.10396086787017,
+          "vlm_updates": 159,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 8,
+          "final_error_m": 47.06767823023681,
+          "vlm_updates": 160,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 9,
+          "final_error_m": 24.464128982200844,
+          "vlm_updates": 156,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 10,
+          "final_error_m": 31.61666810842156,
+          "vlm_updates": 157,
+          "solar_updates": 0,
+          "nees_alarms": 0,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "label": "Full system (solar + VLM)",
+      "key": "full_system",
+      "use_vlm": true,
+      "use_solar": true,
+      "n_seeds": 10,
+      "threshold_m": 50.0,
+      "pass_count": 10,
+      "pass_rate": 1.0,
+      "mean_m": 29.62223287512456,
+      "median_m": 27.736703976416855,
+      "stdev_m": 14.345704395746488,
+      "min_m": 10.279632104602642,
+      "max_m": 48.31639582123465,
+      "nees_alarm_seeds": 0,
+      "per_seed": [
+        {
+          "seed": 1,
+          "final_error_m": 10.279632104602642,
+          "vlm_updates": 162,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 2,
+          "final_error_m": 21.97830334132872,
+          "vlm_updates": 161,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 3,
+          "final_error_m": 36.6163442077743,
+          "vlm_updates": 159,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 4,
+          "final_error_m": 16.42510499207701,
+          "vlm_updates": 162,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 5,
+          "final_error_m": 48.31639582123465,
+          "vlm_updates": 160,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 6,
+          "final_error_m": 14.105696594202405,
+          "vlm_updates": 161,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 7,
+          "final_error_m": 45.90149859584866,
+          "vlm_updates": 159,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 8,
+          "final_error_m": 47.125945141343514,
+          "vlm_updates": 160,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 9,
+          "final_error_m": 24.008033292535025,
+          "vlm_updates": 156,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        },
+        {
+          "seed": 10,
+          "final_error_m": 31.46537466029869,
+          "vlm_updates": 157,
+          "solar_updates": 8,
+          "nees_alarms": 0,
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+scenario_label,level,label,n_landmarks,seed,final_error_m,mean_error_m,max_error_m,pass_50m,vlm_ukf_updates,celestial_updates
+Much Longer,L0,0 landmarks (dead reckoning),0,1,22.2,10.9,30.6,True,0,28
+Much Longer,L0,0 landmarks (dead reckoning),0,2,390.3,210.2,394.1,False,0,28
+Much Longer,L0,0 landmarks (dead reckoning),0,3,651.1,315.6,651.1,False,0,28
+Much Longer,L0,0 landmarks (dead reckoning),0,4,213.0,103.6,213.5,False,0,28
+Much Longer,L0,0 landmarks (dead reckoning),0,5,308.7,161.8,315.4,False,0,28
+Much Longer,L0,0 landmarks (dead reckoning),0,6,133.1,57.4,147.2,False,0,28
+Much Longer,L0,0 landmarks (dead reckoning),0,7,124.0,79.2,126.5,False,0,28
+Much Longer,L0,0 landmarks (dead reckoning),0,8,189.2,110.8,190.2,False,0,28
+Much Longer,L0,0 landmarks (dead reckoning),0,9,33.3,20.6,51.0,True,0,28
+Much Longer,L0,0 landmarks (dead reckoning),0,10,52.5,16.5,52.5,False,0,28
+Much Longer,L1,"22 landmarks (real OSM, baseline)",22,1,1.5,30.2,65.1,True,635,28
+Much Longer,L1,"22 landmarks (real OSM, baseline)",22,2,127.5,49.6,134.2,False,635,28
+Much Longer,L1,"22 landmarks (real OSM, baseline)",22,3,97.0,55.8,123.2,False,636,28
+Much Longer,L1,"22 landmarks (real OSM, baseline)",22,4,52.7,29.2,61.8,False,635,28
+Much Longer,L1,"22 landmarks (real OSM, baseline)",22,5,8.6,25.5,94.8,True,637,28
+Much Longer,L1,"22 landmarks (real OSM, baseline)",22,6,64.9,39.2,157.6,False,637,28
+Much Longer,L1,"22 landmarks (real OSM, baseline)",22,7,37.8,39.3,115.6,True,644,28
+Much Longer,L1,"22 landmarks (real OSM, baseline)",22,8,20.6,27.7,87.1,True,626,28
+Much Longer,L1,"22 landmarks (real OSM, baseline)",22,9,39.8,23.3,72.8,True,641,28
+Much Longer,L1,"22 landmarks (real OSM, baseline)",22,10,24.6,26.3,63.5,True,639,28
+Much Longer,L2,43 landmarks (2× density),43,1,10.6,20.5,65.5,True,1153,28
+Much Longer,L2,43 landmarks (2× density),43,2,47.2,29.7,67.9,True,1157,28
+Much Longer,L2,43 landmarks (2× density),43,3,60.0,52.5,139.5,False,1151,28
+Much Longer,L2,43 landmarks (2× density),43,4,25.3,28.5,81.4,True,1165,28
+Much Longer,L2,43 landmarks (2× density),43,5,17.1,24.7,82.3,True,1159,28
+Much Longer,L2,43 landmarks (2× density),43,6,21.7,28.0,86.9,True,1153,28
+Much Longer,L2,43 landmarks (2× density),43,7,21.2,34.4,124.0,True,1153,28
+Much Longer,L2,43 landmarks (2× density),43,8,34.2,30.4,100.3,True,1157,28
+Much Longer,L2,43 landmarks (2× density),43,9,33.8,23.5,75.9,True,1144,28
+Much Longer,L2,43 landmarks (2× density),43,10,22.0,22.3,68.3,True,1154,28
+Much Longer,L3,85 landmarks (4× density),85,1,23.9,25.9,66.1,True,1992,28
+Much Longer,L3,85 landmarks (4× density),85,2,42.8,22.1,54.0,True,2001,28
+Much Longer,L3,85 landmarks (4× density),85,3,76.5,34.5,93.0,False,2001,28
+Much Longer,L3,85 landmarks (4× density),85,4,29.6,18.1,48.2,True,1985,28
+Much Longer,L3,85 landmarks (4× density),85,5,74.3,36.0,94.2,False,1984,28
+Much Longer,L3,85 landmarks (4× density),85,6,58.9,31.3,77.0,False,1989,28
+Much Longer,L3,85 landmarks (4× density),85,7,4.3,18.1,76.1,True,1998,28
+Much Longer,L3,85 landmarks (4× density),85,8,37.0,22.9,70.1,True,2008,28
+Much Longer,L3,85 landmarks (4× density),85,9,9.4,25.2,76.6,True,1982,28
+Much Longer,L3,85 landmarks (4× density),85,10,45.5,27.3,108.4,True,1984,28
+Much Longer,L4,"42 landmarks (1 per ~10 km, upper bound)",42,1,19.4,15.4,33.6,True,1587,28
+Much Longer,L4,"42 landmarks (1 per ~10 km, upper bound)",42,2,19.5,33.7,66.7,True,1609,28
+Much Longer,L4,"42 landmarks (1 per ~10 km, upper bound)",42,3,172.2,105.6,197.4,False,1592,28
+Much Longer,L4,"42 landmarks (1 per ~10 km, upper bound)",42,4,61.5,39.4,77.3,False,1604,28
+Much Longer,L4,"42 landmarks (1 per ~10 km, upper bound)",42,5,101.5,52.3,102.1,False,1587,28
+Much Longer,L4,"42 landmarks (1 per ~10 km, upper bound)",42,6,85.7,42.5,99.4,False,1603,28
+Much Longer,L4,"42 landmarks (1 per ~10 km, upper bound)",42,7,19.3,19.0,45.1,True,1611,28
+Much Longer,L4,"42 landmarks (1 per ~10 km, upper bound)",42,8,53.9,18.2,59.2,False,1604,28
+Much Longer,L4,"42 landmarks (1 per ~10 km, upper bound)",42,9,48.2,33.3,69.4,True,1619,28
+Much Longer,L4,"42 landmarks (1 per ~10 km, upper bound)",42,10,30.1,41.0,89.7,True,1598,28

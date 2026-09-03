@@ -12,7 +12,13 @@ build/
 .pytest_cache/
 
 # Generated outputs
-results/
+# Run outputs are regenerable and stay out of git -- except results/paper/,
+# which holds the per-seed data behind the published tables. The paper's
+# Availability statement promises that data is here, and a bare "results/"
+# rule is exactly why it was not: git does not descend into an ignored
+# directory, so the exception has to be made at this level.
+results/*
+!results/paper/
 *.mp4
 *.png
 *.pptx

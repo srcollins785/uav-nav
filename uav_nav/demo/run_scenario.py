@@ -48,6 +48,7 @@ def run_scenario(
     use_barometer: bool = True,
     use_magnetometer: bool = True,
     use_airspeed: bool = True,
+    make_plots: bool = True,
 ) -> dict:
     """
     Run one ScenarioConfig end-to-end.
@@ -345,13 +346,20 @@ def run_scenario(
     }
 
     # --- Visualize ---
-    try:
-        from nav_viz import generate_flight_png, generate_flight_video
-        generate_flight_png(result, plot_path)
-        generate_flight_video(result, video_path)
-    except ImportError:
-        print("nav_viz not available — falling back to internal plot.", file=sys.stderr)
-        _plot_scenario(cfg, frames, log_entries, vlm_events, final_err, p95, plot_path)
+    # make_plots=False skips PNG/MP4 rendering. Rendering happens after the
+    # filter has run and consumes no randomness, so metrics are identical
+    # either way; skipping it just makes multi-seed verification fast.
+    if make_plots:
+        try:
+            from nav_viz import generate_flight_png, generate_flight_video
+            generate_flight_png(result, plot_path)
+            generate_flight_video(result, video_path)
+        except ImportError:
+            print("nav_viz not available — falling back to internal plot.", file=sys.stderr)
+            _plot_scenario(cfg, frames, log_entries, vlm_events, final_err, p95, plot_path)
+    else:
+        result["plot_path"] = None
+        result["video_path"] = None
 
     return result
 

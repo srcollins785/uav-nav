@@ -102,7 +102,7 @@ class Settings(BaseModel):
     star_max_magnitude: float = 4.0
 
     # Path to existing inverse_celnav module (relative to uav_nav parent dir)
-    inverse_celnav_path: str = "Offline Vision\u2013Language Navigation/V1/inverse_celnav"
+    inverse_celnav_path: str = "third_party/inverse_celnav"
 
     # Noise models
     process_noise: ProcessNoise = Field(default_factory=ProcessNoise)

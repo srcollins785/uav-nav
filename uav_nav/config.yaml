@@ -43,7 +43,7 @@ star_catalog_path: "celestial/almanac_data/stars.csv"
 star_max_magnitude: 4.0   # Only use stars brighter than this magnitude
 
 # Paths to existing code (resolved relative to uav_nav/ parent)
-inverse_celnav_path: "Offline Vision\u2013Language Navigation/V1/inverse_celnav"
+inverse_celnav_path: "third_party/inverse_celnav"
 
 # Sensor noise (standard deviations for process and measurement noise)
 # Each σ is a continuous-time white-noise spectral density (units: value/√s).

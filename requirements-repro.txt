@@ -1,0 +1,35 @@
+# requirements-repro.txt — pinned environment for reproducing the published results.
+#
+# uav_nav/requirements.txt carries lower bounds, which is right for using the
+# package. This file carries exact pins, which is what reproduction needs:
+# NumPy/SciPy build differences move final-position error by a fraction of a
+# metre, and those fractions are visible against the per-seed values in
+# results/paper/.
+#
+# Verified 2026-09-02 on Python 3.11.15 in a clean Linux container: every
+# very_short seed reproduced results/paper/nighttime_10seed_sweep.json to
+# within 0.23 m (worst case), via tools/verify_reproduction.py.
+#
+# Honest caveat: the exact library versions used for the original 2026-05
+# runs were not recorded. These pins are a known-good configuration, not the
+# original one. If you need bit-identical agreement rather than sub-metre
+# agreement, that provenance no longer exists.
+#
+#   python -m venv .venv && . .venv/bin/activate
+#   pip install -r requirements-repro.txt
+#   python tools/verify_reproduction.py
+
+numpy==2.4.6
+scipy==1.17.1
+filterpy==1.4.5
+pydantic==2.13.5
+pyyaml==6.0.3
+matplotlib==3.11.1
+pillow==12.3.0
+
+# Used by the VLM and imagery paths; not needed for the scenario sweeps.
+opencv-python-headless>=4.10
+ollama>=0.6
+
+# Test runner.
+pytest>=8.0

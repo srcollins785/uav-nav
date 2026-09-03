@@ -1,0 +1,28 @@
+{
+  "utc": "2026-01-28T02:15:30Z",
+  "observations": [
+    {
+      "name": "Polaris",
+      "ra_deg": 37.95456067,
+      "dec_deg": 89.26410897,
+      "alt_deg": 33.2,
+      "az_deg": 0.9,
+      "sigma_alt_deg": 0.3,
+      "sigma_az_deg": 1.5
+    },
+    {
+      "name": "Betelgeuse",
+      "ra_deg": 88.792939,
+      "dec_deg": 7.407064,
+      "alt_deg": 42.7,
+      "az_deg": 156.3,
+      "sigma_alt_deg": 0.3,
+      "sigma_az_deg": 1.5
+    }
+  ],
+  "options": {
+    "use_azimuth": true,
+    "grid_lat_step_deg": 10,
+    "grid_lon_step_deg": 20
+  }
+}
